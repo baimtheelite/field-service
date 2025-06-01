@@ -41,5 +41,6 @@ type FieldDetailResponse struct {
 type FieldRequestParam struct {
 	Page       int     `form:"page" validate:"required"`
 	Limit      int     `form:"limit" validate:"required"`
-	SortColumn *string `form:"sortColumn""`
+	SortColumn *string `form:"sortColumn"`
 	SortOrder  *string `form:"sortOrder"`
+}
