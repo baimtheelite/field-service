@@ -1,10 +1,9 @@
 package clients
 
 import (
-	"field-service/clients"
+	"field-service/clients/config"
 	clients "field-service/clients/user"
 	config2 "field-service/config"
-	"user-service/clients/config"
 )
 
 type ClientRegistry struct {

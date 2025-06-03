@@ -1,8 +1,8 @@
 package dto
 
 import (
+	"field-service/constants"
 	"time"
-	"user-service/constants"
 
 	"github.com/google/uuid"
 )
